@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.8.0rc1-gpu-jupyter
+FROM tensorflow/tensorflow:2.9.1-gpu-jupyter
 
 RUN apt-get update
 RUN apt-get update
