@@ -16,7 +16,7 @@ RUN apt-get update
 
 RUN add-apt-repository ppa:swi-prolog/stable
 RUN apt-get update
-RUN apt-get install swi-prolog
+RUN apt-get -y install swi-prolog
 
 RUN apt-get -y install openssh-server
 RUN service ssh start
